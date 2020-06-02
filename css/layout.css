@@ -1,0 +1,65 @@
+body {
+    max-width: 480px;
+}
+
+div {
+    border: 1px solid black;
+    height: 100px;
+    width: 300px;
+}
+
+#a {
+    background-color: red;
+    height: 75px;
+    line-height: 75px;
+    width: 480px;
+}
+
+#b {
+    background-color: blue;
+    height: 125px;
+    display: inline-block;
+    line-height: 125px;
+    width: 480px;
+}
+
+#c {
+    background-color: green;
+    height: 125px;
+    display: inline-block;
+    line-height: 125px;
+    width: 480px;
+}
+
+#d {
+    background-color: orange;
+    display: block;
+    height: 125px;
+    line-height: 125px;
+    width: 480px;
+}
+
+.ef {
+    background-color: yellow;
+    float: left;
+    height: 250px;
+    line-height: 250px;
+    width: 240px;
+}
+
+.gh {
+    background-color: pink;
+    float: left;
+    display: inline-block;
+    height: 250px;
+    line-height: 250px;
+    width: 240px;
+}
+
+#i {
+    background-color: purple;
+    clear: both;
+    height: 80px;
+    line-height: 80px;
+    width: 480px;
+}
