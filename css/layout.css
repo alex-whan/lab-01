@@ -1,65 +1,61 @@
+/* start with mobile first */
+
 body {
+    height: 100vh;
     max-width: 480px;
 }
 
-div {
+div, header, footer {
     border: 1px solid black;
-    height: 100px;
-    width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 100%;
 }
 
 #a {
     background-color: red;
-    height: 75px;
-    line-height: 75px;
-    width: 480px;
+    height: calc(75 / 1055);
+    width: 100%;
 }
 
 #b {
     background-color: blue;
-    height: 125px;
-    display: inline-block;
-    line-height: 125px;
-    width: 480px;
+    height: calc(150 / 1055);
+    width: 100%;
 }
 
 #c {
     background-color: green;
-    height: 125px;
-    display: inline-block;
-    line-height: 125px;
-    width: 480px;
+    height: calc(125 / 1055);
+    width: 100%;
 }
 
 #d {
     background-color: orange;
-    display: block;
-    height: 125px;
-    line-height: 125px;
-    width: 480px;
+    height: calc(125 / 1055);
+    width: 100%;
 }
 
 .ef {
     background-color: yellow;
-    float: left;
-    height: 250px;
-    line-height: 250px;
-    width: 240px;
+    height: calc(250 / 1055);
+    width: 50%;
 }
 
 .gh {
-    background-color: pink;
-    float: left;
-    display: inline-block;
-    height: 250px;
-    line-height: 250px;
-    width: 240px;
+    background-color: yellow;
+    grid-template-columns: 10% 50%;
+    height: calc(250 / 1055);
+    width: 50%;
 }
+
 
 #i {
     background-color: purple;
-    clear: both;
-    height: 80px;
-    line-height: 80px;
-    width: 480px;
+    height: calc(80 / 1055);
+    width: 100%;
 }
